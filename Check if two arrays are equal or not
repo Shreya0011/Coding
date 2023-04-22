@@ -21,6 +21,7 @@ class Solution{
             
             
         }
+        //check if the two arrays are equal or not
         if(count==N)
         return true;
         else
