@@ -7,8 +7,10 @@ class Solution{
         sort(A.begin(),A.end());
         sort(B.begin(),B.end());
         int count=0;
+        
         for(int i=0;i<N;i++)
         {
+        //comparing the size of two arrays
             if(A.size()!=B.size())
             {
                 return false;
